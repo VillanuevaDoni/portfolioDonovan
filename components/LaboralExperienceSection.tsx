@@ -1,25 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-const skills = [
-  { skill: "iOS Development" },
-  { skill: "HTML" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Node.js" },
-  { skill: "Next.js" },
-  { skill: "Tailwind" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "C#" },
-  { skill: "SQL Server" },
-  { skill: "Postgres" },
-  { skill: "MySQL" },
-  { skill: "MongoDB" },
-  { skill: "SQL Server Integration Services" },
-];
-
 const LaboralExperienceSection = () => {
   return (
     <section id="laboralExperience">

@@ -27,7 +27,7 @@ const HeroSection = () => {
             based in Salem, OH. Working towards creating software that
             makes life easier and more meaningful.
           </p>
-          <Link
+{/*           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
@@ -37,7 +37,8 @@ const HeroSection = () => {
             duration={500}
           >
             Projects
-          </Link>
+          </Link> */}
+          {/* <p className="text-base mt-10 mb-2 md:text-2xl">Contact:  donovanreu88@outlook.com</p> */}
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
