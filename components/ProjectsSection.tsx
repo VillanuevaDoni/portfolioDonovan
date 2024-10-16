@@ -8,10 +8,34 @@ const projects = [
   {
     name: "jesucristocaminoalcielo.org",
     description:
-      "jesucristocaminoalcielo.org is a website that summarizes what the ministry means and its purpose.",
+    "jesucristocaminoalcielo.org is a website that summarizes what the ministry means and its purpose.",
     image: "/jesucristocaminoalcielo-scsh.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+    github: "",
     link: "https://www.jesucristocaminoalcielo.org/",
+  },
+  {
+    name: "To Do List",
+    description:
+    "This app for iOS devices allows you to make a to-do list. You can choose the date and time of the task and add a description. To use it you will need to register first with your email and you will be able to start creating tasks. This app uses Firebase for authentication and storage, which allows you to change devices and keep your data.",
+    image: "/ToDoList.png",
+    github: "",
+    link: "",
+  },
+  {
+    name: "Favorite Places",
+    description:
+    "This app for iOS devices allows you to navigate on the map by marking different places and categorizing them as favorites, so that you can have a list of the places you prefer or potential places you want to go to.",
+    image: "/FavoritePlaces.png",
+    github: "",
+    link: "",
+  },
+  {
+    name: "Hero Finder",
+    description:
+    "This app for iOS devices is fun and easy to use. The goal is simple: search for superheroes or villains and get information about them. You can see data such as nicknames, statistics of their different attributes and all existing versions. To achieve this, this app consumes a public API that you can find at the following link: https://superheroapi.com/",
+    image: "/HeroFinder.png",
+    github: "",
+    link: "",
   },
 ]
 
@@ -19,7 +43,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Latest Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
@@ -35,7 +59,7 @@ const ProjectsSection = () => {
                         src={project.image}
                         alt=""
                         width={1000}
-                        height={1000}
+                        height={100}
                         className="rounded-xl shadow-xl hover:opacity-70"
                       />
                     </Link>
@@ -52,12 +76,12 @@ const ProjectsSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link> */}
-                      <Link href={project.link} target="_blank">
+                      { <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> }
                     </div>
                   </div>
                 </div>

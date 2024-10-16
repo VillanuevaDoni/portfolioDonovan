@@ -2,14 +2,14 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "iOS Development" },
+  { skill: "iOS Development-Swift-SwiftUI" },
   { skill: "HTML" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
   { skill: "Node.js" },
   { skill: "Next.js" },
-  { skill: "Tailwind" },
+  { skill: "Tailwincss" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "C#" },
@@ -23,10 +23,10 @@ const skills = [
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-0 md:pt-16 md:pb-0">
+      <div className="my-5 pb-0 md:pt-6 md:pb-0">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-6 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
